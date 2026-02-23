@@ -2,6 +2,14 @@
 
 An end-to-end vision-language pipeline generating **Vietnamese image captions** using **BLIP** for caption generation, **CLIP** for ranking, and **NLLB** for English-to-Vietnamese translation. Evaluated with **BLEU/METEOR** metrics. Deployed as an interactive **Gradio** demo.
 
+[![Live Demo](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/sanvo/vietnamese-image-captioning)
+
+## Demo
+
+![Demo Screenshot](demo_screenshot.png)
+
+**[Try the live demo on Hugging Face Spaces](https://huggingface.co/spaces/sanvo/vietnamese-image-captioning)**
+
 ## Pipeline
 
 ```
