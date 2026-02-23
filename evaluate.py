@@ -144,4 +144,7 @@ if __name__ == "__main__":
     parser.add_argument("--references", type=str, default=None)
     args = parser.parse_args()
 
+    if (args.predictions is None) != (args.references is None):
+        parser.error("--predictions and --references must both be provided, or both omitted for sample evaluation.")
+
     evaluate_captions(args.predictions, args.references)
